@@ -1,0 +1,50 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: lavenderblush;
+    color: #C71585;
+}
+
+header {
+    background-color: #FADADD;
+    color: #960018;
+    padding: 30px;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.produto-card {
+    background-color: white;
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+}
+
+.produto-card h2 {
+    color: #DC143C;
+}
+
+.produto-card button {
+    background-color: #CD5C5C;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.produto-card button:hover {
+    background-color: #218838;
+}
